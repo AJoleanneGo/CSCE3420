@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<title>AJ Go | My Work</title>
+		<link rel="stylesheet" href="work-style.css">
+		<link rel="stylesheet" href="web-style.css">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Raleway:wght@500&display=swap" rel="stylesheet">
+	</head>
+
+		<script type="text/javascript" src="sortByTag.js"></script>
+	<body>
+		<header>
+			<img src="Assets/pfp.png" height = 100px alt = "Profile Picture">
+			<h3>AJ Go</h3>
+			<nav class="myNav">
+				<ul>
+					<li><a href = "home.html">Home</a></li>
+					<li><a href = "about.html">About Me</a></li>
+					<li><a href = "work.html">My Work</a></li>
+					<li><a href = "resume.html">Resume</a></li>
+				</ul>
+			</nav> <!--myNav-->
+			<hr>
+		</header>
+
+		<div class = "work">
+			<div class = "container">
+			<h2>Looking for Something Specific?</h2>
+				<p>Take a look at some of my work in different areas.</p>
+				<br>
+			<div class = "row">
+				<div class ="col-md-4">
+					<a href = "workWriting.html"><img src = "Assets/write.png" height = 300px></a>
+					<h3>Writer</h3>
+					<div class = "button1">
+						<a href = "workWriting.html">View Here</a>
+					</div><!--button1-->
+				</div><!--col-md-4"-->
+
+				<div class ="col-md-4">
+					<a href = "workDesign.html"><img src = "Assets/design.png" height = 300px></a>
+					<h3>Designer</h3>
+					<div class = "button1">
+						<a href = "workDesign.html">View Here</a>
+					</div><!--button1-->
+				</div><!--col-md-4"-->
+
+				<div class ="col-md-4">
+					<a href = "workCode.html"><img src = "Assets/code.png" height = 300px></a>
+					<h3>IT Specialist</h3>
+					<div class = "button1">
+						<a href = "workCode.html">View Here</a>
+					</div><!--button1-->
+				</div><!--col-md-4"-->
+			</div><!--row-->
+		</div><!--container-->
+		</div><!--work-->
+
+		<section class="catalogue">
+			<div class = "container">
+  			<h2>My Work</h2>
+ 			 <form>
+    				<label for="filter">Sort by tag</label><br>
+   			 		<select name="filter">
+      					<option>All</option>
+      					<option>coding</option>
+      					<option>IT</option>
+      					<option>writing</option>
+      					<option>design</option>
+    				</select>
+  			</form>
+  			<ul class="item-list">
+
+    			<li class="card" data-tags="['design']">
+    				<a href = "WP2brandbook.html"><img src = "PieceLogos/BrandBook.png"></a>
+      				<a href = "WP2brandbook.html"><h3>Personal Brand Book</h3></a>
+      					<ul class="tags">
+        					<li>design</li>
+      					</ul>
+    			</li>
+
+    			<li class="card" data-tags="['IT', 'writing']">
+    				<a href = "WP3businesscase.html"><img src = "PieceLogos/BusinessCase.png"></a>
+      				<a href = "WP3businesscase.html"><h3>Business Case</h3></a>
+      					<ul class="tags">
+        					<li>IT</li>
+        					<li>writing</li>
+      					</ul>
+    			</li>
+
+    			<li class="card" data-tags="['coding', 'design']">
+   					<a href = "WP4htmlnotes.html"><img src = "PieceLogos/HTML.png"></a>
+      				<a href = "WP4htmlnotes.html"><h3>HTML Class Notes</h3></a>
+      				<ul class="tags">
+        				<li>coding</li>
+        				<li>design</li>
+      				</ul>
+    			</li>
+
+    			<li class="card" data-tags="['design']">
+   					<a href = "WP5IMOredesign.html"><img src = "PieceLogos/Document Design.png"></a>
+      				<a href = "WP5IMOredesign.html"><h3>IMO Document Redesign</h3></a>
+      				<ul class="tags">
+        				<li>design</li>
+      				</ul>
+    			</li>
+
+    			<li class="card" data-tags="['coding', 'IT', 'writing']">
+    				<a href = "WP6librarysystem.html"><img src = "PieceLogos/Library System.png"></a>
+      				<a href = "WP6librarysystem.html"><h3>Coding a Library System</h3></a>
+      				<ul class="tags">
+      					<li>coding</li>
+        				<li>IT</li>
+        				<li>writing</li>
+      				</ul>
+    			</li>
+
+    			<li class="card" data-tags="['coding', 'writing', 'design']">
+    				<a href = "WP8webportfolio.html"><img src = "PieceLogos/Portfolio.png"></a>
+      				<a href = "WP8webportfolio.html"><h3>Personal Portfolio</h3></a>
+      				<ul class="tags">
+        				<li>coding</li>
+        				<li>writing</li>
+        				<li>design</li>
+      				</ul>
+    			</li>
+
+    			<li class="card" data-tags="['writing', 'design']">
+   					<a href = "WP9whitepaper.html"><img src = "PieceLogos/Content Resuse.png"></a>
+      				<a href = "WP9whitepaper.html"><h3>Repurposing a White Paper</h3></a>
+      				<ul class="tags">
+        				<li>writing</li>
+        				<li>design</li>
+      				</ul>
+    			</li>
+  			</ul>
+  		</div>
+		</section>
+
+		<footer>
+			<div class ="socialMedia">
+				<hr>
+				<ul>
+					<li><a href = "https://twitter.com/AnielleGo"><img src = "Assets/Twitter.png" height = 50px></a></li>
+					<li><a href = "https://www.linkedin.com/in/anielle-joleanne-go-16bb28210/"><img src = "Assets/LinkedIn.png" height = 50px></a></li>
+					<li><a href = "https://www.instagram.com/milidrawsnow/"><img src = "Assets/Instagram.png" height = 50px></a></li>
+				</ul>
+				<h3>Hire Me</h3>
+				<p>Phone: <a href = "tel:2149607640"> 214-960-7640</a></p>
+				<p>Email: <a href = "mailto: go.anielle@gmail.com">go.anielle@gmail.com></a></p>
+			</div><!--socialMedia-->
+		</footer>
+	</body>
+</html>

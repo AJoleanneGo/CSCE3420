@@ -1,0 +1,46 @@
+.hero-section{
+	color: whitesmoke;
+	background-color: #b676b1;
+	padding:  200px;
+	align-items:  center;
+	justify-content:  center;
+	text-align: center;
+}
+
+.col-md-4{
+	background-color: #b676b1;
+	color: whitesmoke;
+}
+
+.portfolio-pages{
+	margin-left: 100px;
+}
+
+.dog-images {
+	margin-left: 100px
+
+}
+.hero {
+	margin-left: 100px;
+	color: whitesmoke;
+	background-color: #D9B9D6;
+	padding:  200px;
+	align-items:  center;
+	justify-content:  center;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.column{
+	margin-left: 100px
+}
+
+footer{
+	color: whitesmoke;
+	background-color: #b676b1;
+	padding:  100px;
+	align-items:  center;
+	justify-content:  center;
+	text-align: center;
+	margin-top: 100px;
+}
